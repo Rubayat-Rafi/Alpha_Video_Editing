@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-center text-3xl md:text-5xl font-bold leading-tight">
+        <h1 className="text-center text-3xl md:text-5xl lg:text-[60px] md:leading-[66px] font-bold leading-tight">
           Maximize your reach with <br />
           <span className="font-Instrument text-MainColor italic">
             professionally edited videos.
@@ -44,7 +44,7 @@ const Hero = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-center text-gray-400 text-sm md:text-base mt-6">
+        <p className="text-center text-gray-400 text-sm md:text-base lg:text-lg mt-6">
           Our expert editors and animators help you make kick-ass videos <br />
           and grow faster. It's time you stood out in a sea of sameness.
         </p>
