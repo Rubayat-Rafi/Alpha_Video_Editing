@@ -11,15 +11,25 @@ export default {
         Instrument: ["Instrument Serif", "serif"]
       },
       backgroundColor:{
-        BgColor: '#0a0a0a',
-        MainColor:"#765eff"
+        BgColor: '#0a0416',
+        MainColor:"#765eff",
+        BgSecondColor: "#2c1642",
+        BgThirdColor: "#301562"
+
       },
       colors:{
         TextColor: "#fcfcfa",
-        SecondTextColor: "#999999"
+        SecondTextColor: "#999999",
+        MainColor:"#765eff",
+      },
+      outlineColor: {
+        mainColor: "#895543"
       }
     },
   },
-  plugins: [],
+  plugins: [require('daisyui'),],
 }
 
+                      
+/* background: linear-gradient(360deg, #e09215,#2c1642,#301562); */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
