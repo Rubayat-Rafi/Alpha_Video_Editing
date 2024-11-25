@@ -3,7 +3,7 @@ import client from "../assets/client.png"
 
 const Hero = () => {
   return (
-    <div className="mt-20">
+    <div  className="mt-20">
       <div className=" text-white flex flex-col items-center justify-center  md:px-16 lg:px-32 py-20 relative">
         {/* Trusted Section */}
         <div className="flex items-start md:flex-row  flex-col-reverse space-x-3 gap-1 md:gap-0 mb-6">
@@ -50,15 +50,14 @@ const Hero = () => {
         </p>
 
         {/* Buttons */}
-        <div className="mt-8 flex items-center space-x-6 z-10">
-          <a
-            href="#"
+        <div className="mt-8 flex items-center space-x-6  z-10">
+          <button
             className="bg-MainColor text-TextColor px-4 py-2 md:px-6 md:py-3 rounded-lg outline hover:outline-offset-4 outline-TextColor/5 font-semibold hover:outline-mainColor transition-all text-sm md:text-base"
           >
             Book a call
-          </a>
+          </button>
           <a
-            href="#"
+           href="#reviews"
             className="bg-TextColor/5 outline hover:outline-offset-4  text-TextColor px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold outline-TextColor/5 hover:outline-mainColor transition text-sm md:text-base"
           >
             Learn More
@@ -66,7 +65,7 @@ const Hero = () => {
         </div>
 
         {/* Glow Effect */}
-        <div className="absolute bottom-0 bg-BgThirdColor blur-[150px] opacity-70 w-64 h-64 rounded-full"></div>
+        <div className="absolute bottom-0 bg-MainColor blur-[150px] opacity-70 w-64 h-64 rounded-full"></div>
       </div>
     </div>
   );

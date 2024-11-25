@@ -4,13 +4,13 @@ import client from "../assets/client.png";
 
 const Client = () => {
   return (
-    <div className="py-20">
+    <div id="results" className="pt-24">
       <Title heading={"Our Clients"} title={"Hear it directly from "} styleTitle={"our clients."} paragraph={"Hear what our clients have to say. Our testimonials reflect the satisfaction our clients have in our services."} ></Title>
 
       {/* cards section  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center mt-10 gap-12 lg:gap-20 justify-around lg:px-20">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 items-center mt-10 gap-12 lg:gap-20 justify-around lg:px-20"> */}
         {/* Client 1 */}
-        <div className="bg-TextColor/5 border rounded-2xl border-TextColor/20 p-8 lg:p-10">
+        {/* <div className="bg-TextColor/5 border rounded-2xl border-TextColor/20 p-8 lg:p-10">
           <div className="mb-6">
             <iframe
               className="rounded-2xl w-full h-[315px]"
@@ -36,11 +36,9 @@ const Client = () => {
               </div>
             </div>
           </div>
-        </div>
-
-
+        </div> */}
         {/* Client 2 */}
-        <div className="bg-TextColor/5 border rounded-2xl border-TextColor/20 p-8 lg:p-10">
+        {/* <div className="bg-TextColor/5 border rounded-2xl border-TextColor/20 p-8 lg:p-10">
           <div className="mb-6">
             <iframe
               className="rounded-2xl w-full h-[315px]"
@@ -66,9 +64,33 @@ const Client = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+      {/* </div> */}
 
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-10 lg:px-[200px] ">
+        <div>
+        
+          <iframe
+            className="rounded-2xl object-contain"
+            src="https://drive.google.com/file/d/1v1sY_ncg2jFk5k9qPROhxf14RM38tG0q/preview"
+            width="100%"
+            height="600px"
+            allow="autoplay"
+          ></iframe>
+        </div>
+        <div>
+          
+          <iframe
+            className="rounded-2xl"
+            src="https://drive.google.com/file/d/1L26WTVvZSXM_L2cUmIK2Mbr1hMdb4b3c/preview"
+            width="100%"
+            height="600px"
+            allow="autoplay"
+          ></iframe>
+        </div>
       </div>
+
+
     </div>
   );
 };

@@ -1,31 +1,33 @@
 import React, { useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = (
     <>
-      <a href="#" className="hover:text-SecondTextColor transition">
+      <Link to="/sort-form"  className="hover:text-SecondTextColor transition">
         Short-form
-      </a>
-      <a href="#" className="hover:text-SecondTextColor transition">
+      </Link>
+      <a href="#long-form" className="hover:text-SecondTextColor transition">
         Long-form
       </a>
-      <a href="#" className="hover:text-SecondTextColor transition">
+      <a href="#results" className="hover:text-SecondTextColor transition">
         Results
       </a>
-      <a href="#" className="hover:text-SecondTextColor transition">
+      <a href="#services" className="hover:text-SecondTextColor transition">
         Services
       </a>
-      <a href="#" className="hover:text-SecondTextColor transition">
-        Process
+      <a href="#pricing" className="hover:text-SecondTextColor transition">
+        Pricing
       </a>
-      <a href="#" className="hover:text-SecondTextColor transition">
+      <a href="#faq" className="hover:text-SecondTextColor transition">
         FAQs
       </a>
       <a
-        href="#"
+        href="#book-a-call"
         className="bg-MainColor text-TextColor px-2 py-2 rounded-lg  w-full outline hover:outline-offset-4 outline-TextColor/5 hover:outline-mainColor transition-all"
       >
         Book a call
@@ -35,7 +37,7 @@ const Header = () => {
 
   return (
 
-      <nav className="w-11/12 text-TextColor px-4 md:px-6 mx-auto py-4 flex items-center justify-between relative md:border border-TextColor/20 rounded-xl mt-5 md:bg-TextColor/5 md:max-w-[720px]">
+      <nav className="w-11/12 md:backdrop-blur-2xl text-TextColor py-4 md:px-6 mx-auto flex items-center justify-between relative md:border border-TextColor/20 md:rounded-xl md:bg-TextColor/5 md:max-w-[720px] bg-BgColor">
         
         {/* Logo */}
         <div>
@@ -55,7 +57,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="bg-[#0a0416] absolute top-full left-0 w-full  flex flex-col items-start p-4 md:hidden space-y-5 text-center z-30">
+          <div className=" bg-BgColor absolute top-full left-0 w-full  flex flex-col items-start p-6 md:hidden space-y-5 text-center">
             {links}
           </div>
         )}

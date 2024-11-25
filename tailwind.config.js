@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+     
       fontFamily:{
         Sora: ["Sora", "sans-serif"],
         Instrument: ["Instrument Serif", "serif"]
@@ -24,7 +25,7 @@ export default {
       },
       outlineColor: {
         mainColor: "#895543"
-      }
+      },
     },
   },
   plugins: [require('daisyui'),],

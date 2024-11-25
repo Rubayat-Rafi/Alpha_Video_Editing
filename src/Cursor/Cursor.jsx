@@ -24,8 +24,8 @@ const Cursor = () => {
       height: "16px",
     }}
     animate={{
-      x: position.x - 6,
-      y: position.y - 23, 
+      x: position.x - 8,
+      y: position.y - 8, 
     }}
     transition={{
       type: "spring",

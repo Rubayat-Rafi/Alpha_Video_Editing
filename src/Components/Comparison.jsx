@@ -5,7 +5,7 @@ import { GoCheck } from "react-icons/go";
 
 const Comparison = () => {
   return (
-    <div className="py-14">
+    <div className="pt-24">
       <title></title>
       <div className="lg:w-2/4 mx-auto">
         <Title
@@ -76,7 +76,7 @@ const Comparison = () => {
           <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-center mb-6 text-TextColor">
           Alpha Video Editing
           </h3>
-          <div style={{ background: "linear-gradient(45deg, rgba(252,252,250,0.05) 70%, rgba(118,94,255,1) 100%)", backgroundRepeat: "no-repeat" }} className=" border rounded-2xl border-TextColor/20 p-8 lg:p-10  space-y-5 text-TextColor text-base md:text-lg overflow-hidden"
+          <div style={{ background: "linear-gradient(90deg, rgba(252,252,250,0.05) 30%, rgba(118,94,255,1) 100%)", backgroundRepeat: "no-repeat" }} className=" border rounded-2xl border-TextColor/20 p-8 lg:p-10  space-y-5 text-TextColor text-base md:text-lg overflow-hidden"
           >
             <p className="flex items-center gap-3">
               <span className="text-MainColor text-lg md:text-xl lg:text-2xl">
