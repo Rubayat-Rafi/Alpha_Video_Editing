@@ -1,17 +1,8 @@
 .wrapper {
-  /* border: 1px solid #fcfcfa; */
   position: relative;
   height: 100px;
-  /* margin-inline: auto;
-  margin-top: 24px; */
   overflow: hidden;
-  mask-image: linear-gradient(
-    to right,
-    rgba(0,0,0,0),
-    rgba(0,0,0,1) 20%,
-    rgba(0,0,0,1) 80%,
-    rgba(0,0,0,0),
-  );
+  mask-image: linear-gradient( to right, rgba(0,0,0,0), rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) );
 }
 
 @keyframes scrollLeft {
