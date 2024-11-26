@@ -2,9 +2,10 @@ import React from "react";
 import { FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top: 0, behavior: "smooth" });
+  // };
 
   return (
     <div className="relative border-t border-TextColor/20 ">

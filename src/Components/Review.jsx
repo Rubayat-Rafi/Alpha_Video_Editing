@@ -46,7 +46,7 @@ const Review = () => {
         ></Title>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center ">
         {/* Column 1 - Top to Bottom */}
         <motion.div
           className="space-y-8"

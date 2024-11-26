@@ -4,7 +4,7 @@ import image from "../assets/w-logo.png";
 
 const Brands = () => {
   return (
-    <div className="py-14">
+    <div className="">
       <h3 className="text-center text-SecondTextColor text-sm md:text-base lg:text-lg mb-10">
         You're in good hands
       </h3>

@@ -1,11 +1,12 @@
 import React from "react";
 import Title from "./Title";
+// import { Element } from "react-scroll";
 
 
 const ShortForm = () => {
   return (
 
-    <div id="sort-form"  className="pt-24">
+    <div id="short-form" className="pt-24">
       <Title
         heading={"Short-Form"}
         title={"Short-Form Video "}
@@ -77,7 +78,7 @@ const ShortForm = () => {
           ></iframe>
         </div>
 
-        <div>
+        {/* <div>
           <iframe
           className="rounded-2xl"
             src="https://drive.google.com/file/d/14pp6eWSfGhHnfRQi2mD51syqf5iYExPa/preview"
@@ -105,7 +106,7 @@ const ShortForm = () => {
             height="600px"
             allow="autoplay"
           ></iframe>
-        </div>
+        </div> */}
 
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title";
-import client from "../assets/client.png";
+// import client from "../assets/client.png";
 
 const Client = () => {
   return (

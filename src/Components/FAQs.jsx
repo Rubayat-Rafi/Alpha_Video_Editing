@@ -2,7 +2,10 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
 const FAQs = () => {
+
+
   return (
+
     <div id="faq" className="max-w-[900px] mx-auto space-y-5 text-TextColor py-24">
       <div className="collapse collapse-plus bg-BgColor/50 border border-TextColor/20">
         <input type="radio" name="my-accordion-3" />
@@ -86,12 +89,13 @@ const FAQs = () => {
       </div>
 
       <div className="flex items-center justify-center py-6">
-        <button className="flex items-center gap-2 bg-MainColor text-TextColor px-4 py-2 md:px-6 md:py-3 rounded-lg outline hover:outline-offset-4 outline-TextColor/5 font-semibold hover:outline-mainColor transition-all text-sm md:text-base">
+        <a target="_blank" href="https://tidycal.com/alphavideoedit2001/15-minute-meeting" className="flex items-center gap-2 bg-MainColor text-TextColor px-4 py-2 md:px-6 md:py-3 rounded-lg outline hover:outline-offset-4 outline-TextColor/5 font-semibold hover:outline-mainColor transition-all text-sm md:text-base">
           Book a 30-min call <FaArrowRight />
 
-        </button>
+        </a>
       </div>
     </div>
+
   );
 };
 

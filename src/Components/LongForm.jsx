@@ -37,7 +37,6 @@ const LongForm = () => {
           <iframe
             className="rounded-2xl w-full lg:w-1/2"
             src="https://drive.google.com/file/d/1BgM8hkEQrk-iJ9vVDoZ0VIgqB-proF_L/preview"
-            // width="50%"
             height="350px"
             allow="autoplay"
           ></iframe>
