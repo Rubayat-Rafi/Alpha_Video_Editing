@@ -1,83 +1,96 @@
 import React, { useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
 import { RxCross2 } from "react-icons/rx";
+import logo from "../assets/logo Main.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = (
-    <>
-      <a
-        href="#short-form"
-        className="hover:text-SecondTextColor transition cursor-pointer"
-      >
-        Short-form
-      </a>
-      <a
-        href="#long-form"
-        className="hover:text-SecondTextColor transition cursor-pointer"
-      >
-        Long-form
-      </a>
-      <a
-        href="#results"
-        className="hover:text-SecondTextColor transition cursor-pointer"
-      >
-        
-        Results
-      </a>
-      <a
-        href="#services"
-        className="hover:text-SecondTextColor transition cursor-pointer"
-      >Services
-      </a>
-      <a
-        href="#pricing"
-        className="hover:text-SecondTextColor transition cursor-pointer"
-      >
-        
-        Pricing
-      </a>
-      <a
-        href="#faq"
-        className="hover:text-SecondTextColor transition cursor-pointer"
-      >
-        
-        FAQs
-      </a>
-      <a
-        href="#book-a-call"
-        className="bg-MainColor text-TextColor px-2 py-2 rounded-lg w-full outline hover:outline-offset-4 outline-TextColor/5 hover:outline-mainColor transition-all cursor-pointer"
-      >
-        
-        Book a call
-      </a>
-    </>
+    <ul className=" flex flex-col items-start  lg:text-center  lg:items-center lg:flex-row lg:space-x-8 text-sm space-y-4 lg:space-y-0">
+      <li className="lg:w-[110px]">
+        <a
+          href="#long-form"
+          className="hover:text-SecondTextColor transition cursor-pointer "
+        >
+          <span className="lg:text-lg">Long-Form</span> <span className="lg:tracking-wide">Video Editing</span>
+           
+        </a>
+      </li>
+      <li className="lg:w-[120px]">
+        <a
+          href="#short-form"
+          className="hover:text-SecondTextColor transition cursor-pointer"
+        >
+          <span className="lg:text-lg ">Short-Form</span> <span className="lg:tracking-tight">Content Editing</span>
+           
+        </a>
+      </li>
+
+      <li className="lg:w-[120px]">
+        <a
+          href="#results"
+          className="hover:text-SecondTextColor transition cursor-pointer "
+        >
+          <span className="lg:text-lg">Our Success</span> <span className="lg:tracking-wider">Stories</span>
+        </a>
+      </li>
+      <li className="lg:w-[120px]">
+
+        <a
+          href="#services"
+          className="hover:text-SecondTextColor transition cursor-pointer "
+        >
+          <span className="lg:text-lg lg:tracking-[2px]">Our Video</span> <span className="lg:tracking-tight ">Editing Services</span>
+        </a>
+      </li>
+      <li className="lg:w-[65px]">
+        <a
+          href="#pricing"
+          className="hover:text-SecondTextColor transition cursor-pointer "
+        >
+          <span className="lg:text-lg lg:tracking-[2px]">Plans</span> & Pricing
+        </a>
+      </li>
+      <li className="">
+        <a
+          href="#faq"
+          className="hover:text-SecondTextColor transition cursor-pointer"
+        >
+          <span className="lg:text-lg">FAQs</span>
+        </a>
+      </li>
+      <li className="">
+        <a
+          href="#book-a-call"
+          className="bg-MainColor text-TextColor px-2 py-2 lg:py-3 lg:px-4 rounded-lg w-full outline hover:outline-offset-4 outline-TextColor/5 hover:outline-mainColor transition-all cursor-pointer"
+        >
+          <span className="lg:text-lg">Book a call</span>
+        </a>
+      </li>
+    </ul>
   );
 
   return (
-    <nav className="w-11/12 md:backdrop-blur-2xl text-TextColor py-4 md:px-6 mx-auto flex items-center justify-between relative md:border border-TextColor/20 md:rounded-xl md:bg-TextColor/5 md:max-w-[720px] bg-BgColor">
+    <nav className=" md:w-11/12 md:backdrop-blur-2xl text-TextColor py-4  px-6 mx-auto flex items-center justify-between relative lg:border border-TextColor/20 md:rounded-xl lg:bg-TextColor/5 lg:max-w-[1050px] bg-BgColor">
       {/* Logo */}
-      <div>
-        <a href="#hero" smooth={true} duration={500} className="text-lg font-bold">
-          Alpha
-        </a>
-      </div>
+      <a href="#hero">
+        <img src={logo} alt="logo" className="w-14" />
+      </a>
 
       {/* Navigation Links for desktop */}
-      <div className="hidden md:block space-x-5 text-sm">{links}</div>
-
+      <div className="hidden lg:block ">{links}</div>
       {/* Hamburger menu for mobile */}
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden text-2xl cursor-pointer"
+        className="lg:hidden text-2xl cursor-pointer"
       >
         {isOpen ? <RxCross2 /> : <RiMenu3Line />}
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className=" bg-BgColor absolute top-full left-0 w-full  flex flex-col items-start p-6 md:hidden space-y-5 text-center">
+        <div className=" bg-BgColor absolute top-full left-0 w-full text-xs flex flex-col items-start p-6 lg:hidden  text-center">
           {links}
         </div>
       )}

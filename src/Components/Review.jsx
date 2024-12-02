@@ -1,13 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Title from "./Title";
-
-import "../styles/reviews.css";
+import Reviews from "./Reviews";
+// import reviews from "/reviews.json";
+// import "../styles/reviews.css";
 
 const Review = () => {
+
+  const [reviews, SetReviews] = useState([])
+
+  useEffect(()=>{
+    fetch('/reviews.json')
+    .then(res => res.json())
+    .then(data => SetReviews(data))
+  },[])
+
+
+
   return (
     <div
       id="reviews"
-      className="pt-24 flex flex-col items-center justify-center"
+      className=" pt-14 md:pt-28 flex flex-col items-center justify-center"
     >
       <div className="mb-10 md:w-4/6 ">
         <Title
@@ -17,28 +29,30 @@ const Review = () => {
         ></Title>
       </div>
 
-      <div className="reviewsContainer grid grid-cols-1 lg:grid-cols-3 gap-8 place-items-center min-h-[500px] overflow-y-hidden">
-        {/* first card  */}
-        <div className="firstcontainer lg:space-y-5 flex flex-row lg:flex-col items-center space-x-5 lg:space-x-0 justify-center">
-          <div className="card card1">firstcontainer</div>
-          <div className="card card2">firstcontainer</div>
-          <div className="card card3">firstcontainer</div>
-        </div>
-
-        {/* second card  */}
-        <div className="secondcontainer lg:space-y-5 flex flex-row lg:flex-col items-center space-x-5 justify-center lg:space-x-0">
-          <div className="card card1">secondcontainer</div>
-          <div className="card card2">secondcontainer</div>
-          <div className="card card3">secondcontainer</div>
-        </div>
-
-        {/* third card  */}
-        <div className="thirdcontainer lg:space-y-5 flex flex-row lg:flex-col items-center space-x-5 justify-center lg:space-x-0">
-          <div className="card card1">thirdcontainer</div>
-          <div className="card card2">thirdcontainer</div>
-          <div className="card card3">thirdcontainer</div>
-        </div>
-      </div>
+    <Reviews></Reviews>
+      {/* <div className="reviewsContainer grid grid-cols-1 lg:grid-cols-3 gap-6 overflow-hidden ">
+        {reviews.map((review, index) => (
+          <div
+            key={index}
+            className={`review-card p-6 border border-TextColor/20 rounded-lg space-y-4 shadow-lg animate-scroll`}
+            style={{ animationDelay: `${index * 2}s` }}
+          >
+            <p className="text-SecondTextColor  ">{review.description}</p>
+            <div className="flex items-center gap-3 flex-grow">
+              <img
+                src={review.image}
+                alt={review.name}
+                className="w-10 h-10 bg-gray-200 rounded-full"
+              />
+              <div>
+                <h3 className="font-bold text-TextColor">{review.name}</h3>
+                <p className="text-SecondTextColor">{review.country}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div> */}
+      
     </div>
   );
 };

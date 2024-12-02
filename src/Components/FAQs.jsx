@@ -6,7 +6,7 @@ const FAQs = () => {
 
   return (
 
-    <div id="faq" className="max-w-[900px] mx-auto space-y-5 text-TextColor py-24">
+    <div id="faq" className="max-w-[900px] mx-auto space-y-5 text-TextColor  py-[70px] md:py-28">
       <div className="collapse collapse-plus bg-BgColor/50 border border-TextColor/20">
         <input type="radio" name="my-accordion-3" />
         <div className="collapse-title text-base lg:text-lg font-medium">

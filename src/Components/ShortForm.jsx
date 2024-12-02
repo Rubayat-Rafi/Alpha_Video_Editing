@@ -2,79 +2,82 @@ import React from "react";
 import Title from "./Title";
 // import { Element } from "react-scroll";
 
-
 const ShortForm = () => {
   return (
-
-    <div id="short-form" className="pt-24">
+    <div id="short-form" className="  pt-[70px] md:pt-28">
       <Title
         heading={"Short-Form"}
-        title={"Short-Form Video "}
-        styleTitle={"Examples"}
+        title={"Professional Short-Form Video Editing "}
+        styleTitle={"Captivating Content for Maximum Engagement"}
         paragraph={
-          "Videos Optimized for All Platforms. Name any social media platform, we can handle it."
+          "AlphaVideoEdit.com specializes in short-form content editing to elevate your online presence. From Instagram Reels and YouTube Shorts to TikTok videos, we create scroll-stopping content with precision edits, creative transitions, and motion graphics. Our expertise turns raw footage into shareable, visually engaging videos that amplify your brand reach and captivate audiences."
         }
       ></Title>
 
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-8 mt-10">
-
+      <div className="grid grid-cols-2  md:grid-cols-3  md:px-16 lg:px-16 gap-4 lg:gap-16 mt-10">
         <div>
           <iframe
-          className="rounded-2xl"
-            src="https://drive.google.com/file/d/1vVwgbxo0AMW_5qHaLEk3UyAqMHOyKWrn/preview"
-            width="100%"
-            height="700px"
-            allow="autoplay"
+            className="rounded-2xl w-full lg:h-[700px] md:h-[400px]  h-[300px] "
+            src="https://www.youtube.com/embed/v6dmIpANv8k?rel=0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </div>
 
         <div>
           <iframe
-          className="rounded-2xl object-cover"
-            src="https://drive.google.com/file/d/1Jcrslyh8bMrQQ-X7STnoBM-xmxMNvoQe/preview"
-            width="100%"
-            height="700px"
-            allow="autoplay"
+            className="rounded-2xl w-full lg:h-[700px] md:h-[400px] h-[300px]"
+            src="https://www.youtube.com/embed/yAyIKlgB0Ic?rel=0"
+            title="YouTube Shorts video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </div>
 
         <div>
           <iframe
-          className="rounded-2xl"
-            src="https://drive.google.com/file/d/1rOMYi4v7g2gjKOP4DqiBYn3-i82w9SXP/preview"
-            width="100%"
-            height="700px"
-            allow="autoplay"
+            className="rounded-2xl w-full lg:h-[700px] md:h-[400px]  h-[300px]"
+            src="https://www.youtube.com/embed/x1ZSbZzbUhA?rel=0"
+            title="YouTube Shorts video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </div>
 
         <div>
           <iframe
-          className="rounded-2xl"
-            src="https://drive.google.com/file/d/1CCcxLb9WWqt5WuYE4s3DhP_gBGfZ-QRz/preview"
-            width="100%"
-            height="600px"
-            allow="autoplay"
+            className="rounded-2xl w-full lg:h-[700px] md:h-[400px]  h-[300px]"
+            src="https://www.youtube.com/embed/ZaWJ2jrYB0g?rel=0"
+            title="YouTube Shorts video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </div>
 
         <div>
           <iframe
-          className="rounded-2xl"
-            src="https://drive.google.com/file/d/14fjbYmhD64WdVeUL-2pUBV_b1q7lcMvB/preview"
-            width="100%"
-            height="600px"
-            allow="autoplay"
+            className="rounded-2xl w-full lg:h-[700px] md:h-[400px]  h-[300px]"
+            src="https://www.youtube.com/embed/oiAqEuy_I-Q?rel=0"
+            title="YouTube Shorts video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </div>
 
         <div>
           <iframe
-          className="rounded-2xl"
-            src="https://drive.google.com/file/d/1cQFLq6Nk8r8TAfkW93NCFo8VI_RTEPyc/preview"
-            width="100%"
-            height="600px"
-            allow="autoplay"
+            className="rounded-2xl w-full lg:h-[700px] md:h-[400px]  h-[300px]"
+            src="https://www.youtube.com/embed/SjmBlOv2tk8?rel=0"
+            title="YouTube Shorts video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
           ></iframe>
         </div>
 
@@ -107,10 +110,8 @@ const ShortForm = () => {
             allow="autoplay"
           ></iframe>
         </div> */}
-
       </div>
     </div>
-
   );
 };
 

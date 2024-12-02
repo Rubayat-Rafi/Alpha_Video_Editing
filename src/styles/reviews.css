@@ -1,4 +1,4 @@
-.reviewsContainer {
+/* .reviewsContainer {
   mask-image: linear-gradient(
     to top,
     rgba(0, 0, 0, 0),
@@ -8,10 +8,6 @@
   );
   
 }
-
-/* .firstcontainer , .secondcontainer, .thirdcontainer{
-    position: relative;
-} */
 
 .firstcontainer .card {
   animation: scrollTopToBottom 20s linear infinite;
@@ -24,18 +20,17 @@
 }
 
 .card {
-  padding: 100px;
-  border: 1px solid gainsboro;
-  border-radius: 6px;
+  padding: 20px;
+  border: 1px solid 	
+  rgba(252,252,250, 0.2);
+  border-radius: 16px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  color: #fff;
-  /* position: absolute; */
+  gap: 20px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* color: #fff;
 }
 
-/* Wrapper for animation */
 @keyframes scrollTopToBottom {
   0% {
     transform: translateY(-100%);
@@ -51,10 +46,11 @@
   100% {
     transform: translateY(-100%);
   }
-} 
+}  */ 
+
 
 /* @media screen  */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .reviewsContainer{
         overflow-x: hidden;
         mask-image: linear-gradient(
@@ -64,6 +60,12 @@
             rgba(0, 0, 0, 1) 80%,
             rgba(0, 0, 0, 0)
           );
+          
+    }
+    .card{
+      width: 462px;
+      height: 254px;
+      overflow: hidden;
     }
 
     @keyframes scrollTopToBottom {
@@ -83,4 +85,13 @@
         }
       } 
 
-}
+} */
+
+
+
+
+
+
+
+
+

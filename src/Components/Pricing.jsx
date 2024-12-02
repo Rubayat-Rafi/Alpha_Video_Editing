@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const Pricing = () => {
   return (
-    <div id="pricing" className="pt-24 flex items-center justify-center flex-col">
+    <div id="pricing" className=" pt-[70px] md:pt-28 flex items-center justify-center flex-col">
       <div className="mb-8 lg:mb-24 lg:w-4/5 ">
         <Title
           heading={"Pricing"}
@@ -16,28 +16,33 @@ const Pricing = () => {
         ></Title>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
         {/* package 1 */}
-        <div className="border border-TextColor/20 rounded-2xl px-8 py-10">
-          <h3 className="text-3xl py-6 font-normal">Starter Plan</h3>
+        <div className="border border-TextColor/20 rounded-2xl px-8 py-6 md:py-10">
+          <h3 className=" text-xl md:text-3xl py-6 font-normal">Starter Plan</h3>
           <div className="border border-t border-TextColor/20"></div>
-          <h1 className="text-5xl py-6 font-semibold">Price: $1500</h1>
-          <div className="border border-TextColor/20 rounded-lg p-4">
-            <button className="bg-TextColor/5 border border-TextColor/20 w-full py-3 rounded-md text-lg font-medium">
+          <h1 className=" text-3xl md:text-5xl py-6 font-semibold">Price: $499</h1>
+          <div className="flex justify-center items-center border border-TextColor/20 rounded-lg p-4">
+            <a target="_blank" href="https://tidycal.com/alphavideoedit2001/15-minute-meeting" className="bg-TextColor/5 border border-TextColor/20 w-full py-3 rounded-md  text-base md:text-lg font-medium text-center">
               Book a call
-            </button>
+            </a>
           </div>
           <div className="mt-6">
-            <h4 className="text-lg font-normal text-SecondTextColor mb-6">
+            <h4 className=" text-base md:text-lg font-normal text-SecondTextColor mb-6">
               What’s included:
             </h4>
-            <u className="list-none no-underline text-TextColor text-lg space-y-3">
+            <u className="list-none no-underline text-TextColor text-sm md:text-lg space-y-3">
               <li className="flex items-center gap-2">
-                {" "}
                 <span className="text-xl">
                   <IoMdCheckmarkCircleOutline />
                 </span>
-                12 video credits
+                10 short form video credits
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-xl">
+                  <IoMdCheckmarkCircleOutline />
+                </span>
+                Up to 60 seconds each
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-xl">
@@ -56,12 +61,6 @@ const Pricing = () => {
                   <IoMdCheckmarkCircleOutline />
                 </span>
                 Average 1-2 days turnaround
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-xl">
-                  <IoMdCheckmarkCircleOutline />
-                </span>
-                Dedicated account manager
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-xl">
@@ -86,27 +85,33 @@ const Pricing = () => {
               "linear-gradient(0deg, rgba(252,252,250,0.05) 10%, rgba(118,94,255,1) 100%)",
             backgroundRepeat: "no-repeat",
           }}
-          className="border border-TextColor/20 rounded-2xl px-8 py-10 lg:-mt-12"
+          className="border border-TextColor/20 rounded-2xl px-8 py-6 md:py-10 lg:-mt-12"
         >
-          <h3 className="text-3xl py-6 font-normal">Professional Plan</h3>
+          <h3 className="text-xl md:text-3xl py-6 font-normal">Professional Plan</h3>
           <div className="border border-t border-TextColor/20"></div>
-          <h1 className="text-5xl py-6 font-semibold">Price: $3000</h1>
-          <div className="border border-TextColor/20 rounded-lg p-4">
-            <button className="bg-TextColor/5 border border-TextColor/20 w-full py-3 rounded-md text-lg font-medium">
+          <h1 className="text-3xl md:text-5xl py-6 font-semibold">Price: $990</h1>
+          <div className=" flex justify-center items-center border border-TextColor/20 rounded-lg p-4">
+            <a target="_blank" href="https://tidycal.com/alphavideoedit2001/15-minute-meeting" className="bg-TextColor/5 border border-TextColor/20 w-full py-3 rounded-md text-base md:text-lg font-medium text-center">
               Book a call
-            </button>
+            </a>
           </div>
           <div className="mt-6">
-            <h4 className="text-lg font-normal text-SecondTextColor mb-6">
+            <h4 className=" text-base md:text-lg font-normal text-SecondTextColor mb-6">
               What’s included:
             </h4>
-            <u className="list-none no-underline text-TextColor text-lg space-y-3">
+            <u className="list-none no-underline text-TextColor text-sm md:text-lg space-y-3">
               <li className="flex items-center gap-2">
-                {" "}
+
                 <span className="text-xl">
                   <IoMdCheckmarkCircleOutline />
                 </span>
-                25 video credits
+                10 Long form video credits
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-xl">
+                  <IoMdCheckmarkCircleOutline />
+                </span>
+                Up to 10 minutes each
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-xl">
@@ -130,20 +135,9 @@ const Pricing = () => {
                 <span className="text-xl">
                   <IoMdCheckmarkCircleOutline />
                 </span>
-                Average 1-day turnaround
+                Average 2-day turnaround
               </li>
-              <li className="flex items-center gap-2">
-                <span className="text-xl">
-                  <IoMdCheckmarkCircleOutline />
-                </span>
-                Priority support with a dedicated account manager
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-xl">
-                  <IoMdCheckmarkCircleOutline />
-                </span>
-                Multi-platform optimization (YouTube, Instagram, TikTok)
-              </li>
+
               <li className="flex items-center gap-2">
                 <span className="text-xl">
                   <IoMdCheckmarkCircleOutline />
@@ -161,26 +155,32 @@ const Pricing = () => {
         </div>
 
         {/* package 3 */}
-        <div className="border border-TextColor/20 rounded-2xl px-8 py-10">
-          <h3 className="text-3xl py-6 font-normal">Premium Plan</h3>
+        <div className="border border-TextColor/20 rounded-2xl px-8 py-6 md:py-10">
+          <h3 className="text-xl md:text-3xl py-6 font-normal">Premium Plan</h3>
           <div className="border border-t border-TextColor/20"></div>
-          <h1 className="text-5xl py-6 font-semibold">Price: $5000</h1>
-          <div className="border border-TextColor/20 rounded-lg p-4">
-            <button className="bg-TextColor/5 border border-TextColor/20 w-full py-3 rounded-md text-lg font-medium">
+          <h1 className="text-3xl md:text-5xl py-6 font-semibold">Price: $1199</h1>
+          <div className="flex justify-center items-center border border-TextColor/20 rounded-lg p-4">
+            <a target="_blank" href="https://tidycal.com/alphavideoedit2001/15-minute-meeting" className="bg-TextColor/5 border border-TextColor/20 w-full py-3 rounded-md text-base md:text-lg font-medium text-center">
               Book a call
-            </button>
+            </a>
           </div>
           <div className="mt-6">
-            <h4 className="text-lg font-normal text-SecondTextColor mb-6">
+            <h4 className=" text-base md:text-lg font-normal text-SecondTextColor mb-6">
               What’s included:
             </h4>
-            <u className="list-none no-underline text-TextColor text-lg space-y-3">
+            <u className="list-none no-underline text-TextColor text-sm md:text-lg space-y-3">
               <li className="flex items-center gap-2">
-                {" "}
+
                 <span className="text-xl">
                   <IoMdCheckmarkCircleOutline />
                 </span>
-                50 video credits
+                10 Long form video credits(10 minutes)
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-xl">
+                  <IoMdCheckmarkCircleOutline />
+                </span>
+                10 short-form video credits ( 60 seconds)
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-xl">
@@ -192,31 +192,19 @@ const Pricing = () => {
                 <span className="text-xl">
                   <IoMdCheckmarkCircleOutline />
                 </span>
-                Full-service video production (concept to delivery)
+                Advanced motion graphics and effects
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-xl">
                   <IoMdCheckmarkCircleOutline />
                 </span>
-                Custom motion graphics, VFX, and sound design
+                Personalized video branding with custom animations
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-xl">
                   <IoMdCheckmarkCircleOutline />
                 </span>
-                Personalized branding package with intros/outros
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-xl">
-                  <IoMdCheckmarkCircleOutline />
-                </span>
-                Same-day turnaround for urgent projects
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-xl">
-                  <IoMdCheckmarkCircleOutline />
-                </span>
-                Dedicated creative director and account manager
+                Average 2-day turnaround
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-xl">
@@ -240,19 +228,4 @@ const Pricing = () => {
 
 export default Pricing;
 
-// Premium Plan
-// Price: $5000
 
-// What’s included:
-
-// 50 video credits
-// Unlimited revisions
-// Full-service video production (concept to delivery)
-// Custom motion graphics, VFX, and sound design
-
-// Personalized branding package with intros/outros
-// Same-day turnaround for urgent projects
-// Dedicated creative director and account manager
-// Multi-platform optimization and SEO-friendly edits
-// Easy credit-card payments
-// Pause or cancel anytime

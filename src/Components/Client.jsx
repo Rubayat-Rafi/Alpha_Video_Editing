@@ -4,8 +4,8 @@ import Title from "./Title";
 
 const Client = () => {
   return (
-    <div id="results" className="pt-24">
-      <Title heading={"Our Clients"} title={"Hear it directly from "} styleTitle={"our clients."} paragraph={"Hear what our clients have to say. Our testimonials reflect the satisfaction our clients have in our services."} ></Title>
+    <div id="results" className="  pt-[70px] md:pt-28">
+      <Title heading={"Our Clients"} title={"What Our Clients Say "} styleTitle={"About Us"} paragraph={"Discover how AlphaVideoEdit.com delivers exceptional video editing services that clients trust. Hear firsthand experiences and success stories that showcase our dedication to quality and impactful results."} ></Title>
 
       {/* cards section  */}
       {/* <div className="grid grid-cols-1 md:grid-cols-2 items-center mt-10 gap-12 lg:gap-20 justify-around lg:px-20"> */}
@@ -67,24 +67,21 @@ const Client = () => {
         </div> */}
       {/* </div> */}
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-10 lg:px-[200px] ">
+      <div className="grid grid-cols-2 gap-4 md:gap-8 lg:gap-16 mt-10 md:px-[150px] lg:px-[300px] ">
         <div>
         
           <iframe
-            className="rounded-2xl object-contain"
-            src="https://drive.google.com/file/d/1v1sY_ncg2jFk5k9qPROhxf14RM38tG0q/preview"
-            width="100%"
-            height="600px"
+            className="rounded-2xl object-contain w-full h-[300px] md:h-[400px] lg:h-[700px]"
+            src="https://www.youtube.com/embed/CxlpHtjCVFw?rel=0"
             allow="autoplay"
           ></iframe>
         </div>
         <div>
           
-          <iframe
-            className="rounded-2xl"
-            src="https://drive.google.com/file/d/1L26WTVvZSXM_L2cUmIK2Mbr1hMdb4b3c/preview"
-            width="100%"
-            height="600px"
+          <iframe 
+            className="rounded-2xl object-contain w-full h-[300px] md:h-[400px]  lg:h-[700px]"
+            src="https://www.youtube.com/embed/I8pRGI89znU?rel=0"
+
             allow="autoplay"
           ></iframe>
         </div>

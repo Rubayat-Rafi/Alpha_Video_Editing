@@ -10,7 +10,7 @@ const Talk = () => {
   }, []);
 
   return (
-    <div id="book-a-call" className="pt-24">
+    <div id="book-a-call" className=" pt-14 md:pt-28">
       <div className="border border-TextColor/20  rounded-2xl  py-6">
         <div>
           <Title

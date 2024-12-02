@@ -1,5 +1,6 @@
 import React from "react";
-import { FaArrowUp } from "react-icons/fa";
+import logo from "../assets/logo Main.png"
+// import { FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
   
@@ -10,7 +11,12 @@ const Footer = () => {
   return (
     <div className="relative border-t border-TextColor/20 ">
       <div className="py-14 max-w-[1440px] w-11/12 mx-auto">
-        <h3 className="text-3xl font-bold mb-8">Alpha</h3>
+
+        {/* <h3 className="text-3xl font-bold mb-8">Alpha</h3> */}
+        <a href="#hero">
+        <img src={logo} alt="logo" className="h-12 mb-8" />
+      </a>
+
         <div className="flex flex-col-reverse md:flex-row justify-between">
           <div className="text-TextColor">
             <p className="text-lg font-semibold mb-4">Join Our Newsletter</p>
@@ -31,20 +37,20 @@ const Footer = () => {
           </div>
           <div className="flex gap-8 md:flex-row flex-col mb-10">
             <nav>
-              <h3 className="text-base text-TextColor mb-5">Links</h3>
-              <div className="flex md:flex-col md:space-x-0 space-x-6 md:space-y-4 text-sm text-SecondTextColor flex-wrap">
-                <p className="">Results</p>
-                <p>Services</p>
-                <p>Comparison</p>
-                <p>Process</p>
+              <h3 className="text-base text-TextColor mb-5">Social</h3>
+              <div className="flex md:flex-col  md:space-x-0 space-x-4 md:space-y-4 text-sm text-SecondTextColor flex-wrap">
+                <a target="_blank" href="https://www.linkedin.com/in/imam-hasan-666021204/" className="hover:underline">LinkedIn</a>
+                <a target="_blank" href="https://www.youtube.com/@AlphaVideoEdit" className="hover:underline">YouTube</a>
+                <a target="_blank"  href="https://www.instagram.com/alphavideoedit/" className="hover:underline">Instagram</a>
+                <a target="_blank" href="https://www.facebook.com/people/Alphavideoeditcom/61566444836135/?mibextid=ZbWKwL" className="hover:underline">Facebook</a>
               </div>
             </nav>
             <nav>
               <h3 className="text-base text-TextColor mb-5">Information</h3>
-              <div className="md:space-y-4 text-sm text-SecondTextColor flex space-x-6 md:flex-col md:space-x-0">
-                <p>FAQ</p>
-                <p>Contact Us</p>
-                <p>About Us</p>
+              <div className="md:space-y-4 text-sm text-SecondTextColor flex space-x-4 md:flex-col md:space-x-0">
+                <a href="#faq" className="hover:underline">FAQ</a>
+                <a target="_blank" href="https://tidycal.com/alphavideoedit2001/15-minute-meeting" className="hover:underline">Contact Us</a>
+                <a className="hover:underline">About Us</a>
               </div>
             </nav>
           </div>

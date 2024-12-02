@@ -12,6 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Review from "../Components/Review";
 import Talk from "../Components/Talk";
+import Intro from "../Components/Intro";
 
 
 const Home = () => {
@@ -26,11 +27,13 @@ const Home = () => {
     <main data-aos="fade-up" className="min-h-screen z-0">
       <Hero />
 
+      <Intro></Intro>
+
       <Brands />
 
-      <ShortForm />
-
       <LongForm />
+
+      <ShortForm />
 
       <Client />
 

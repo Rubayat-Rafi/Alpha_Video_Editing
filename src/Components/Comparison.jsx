@@ -5,13 +5,12 @@ import { GoCheck } from "react-icons/go";
 
 const Comparison = () => {
   return (
-    <div className="pt-24">
-      <title></title>
-      <div className="lg:w-2/4 mx-auto">
+    <div className=" pt-14 md:pt-28">
+      <div className=" mx-auto">
         <Title
           heading={"Comparison"}
-          title={"But, why would you want to work"}
-          styleTitle={"with us?"}
+          title={"Why Choose AlphaVideoEdit.com for "}
+          styleTitle={"Your Video Editing Needs?"}
         ></Title>
       </div>
 
@@ -19,7 +18,7 @@ const Comparison = () => {
         {/* other agency */}
         <div>
           <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-center mb-6 text-SecondTextColor">
-            Other Agencies
+          What Other Agencies Offer:
           </h3>
           <div className="bg-TextColor/5 border rounded-2xl border-TextColor/20 p-8 lg:p-10  space-y-5 text-SecondTextColor text-base md:text-lg ">
             <p className="flex items-center gap-2">
@@ -74,7 +73,7 @@ const Comparison = () => {
         {/* Alpha Video Editing */}
         <div>
           <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-center mb-6 text-TextColor">
-          Alpha Video Editing
+          What AlphaVideoEdit.com Offers:
           </h3>
           <div style={{ background: "linear-gradient(90deg, rgba(252,252,250,0.05) 30%, rgba(118,94,255,1) 100%)", backgroundRepeat: "no-repeat" }} className=" border rounded-2xl border-TextColor/20 p-8 lg:p-10  space-y-5 text-TextColor text-base md:text-lg overflow-hidden"
           >
