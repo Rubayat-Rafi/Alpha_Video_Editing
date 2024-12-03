@@ -6,7 +6,7 @@ import { GoCheck } from "react-icons/go";
 const Comparison = () => {
   return (
     <div className=" pt-14 md:pt-28">
-      <div className=" mx-auto">
+      <div className=" mx-auto lg:px-[10%]">
         <Title
           heading={"Comparison"}
           title={"Why Choose AlphaVideoEdit.com for "}
@@ -17,10 +17,10 @@ const Comparison = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-8 ">
         {/* other agency */}
         <div>
-          <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-center mb-6 text-SecondTextColor">
+          <h3 className="text-base md:text-xl lg:text-2xl font-medium text-center mb-6 text-SecondTextColor">
           What Other Agencies Offer:
           </h3>
-          <div className="bg-TextColor/5 border rounded-2xl border-TextColor/20 p-8 lg:p-10  space-y-5 text-SecondTextColor text-base md:text-lg ">
+          <div className="bg-TextColor/5 border rounded-2xl border-TextColor/20 p-8 lg:p-10  space-y-5 text-SecondTextColor text-xs md:text-base lg:text-lg ">
             <p className="flex items-center gap-2">
               <span className="text-lg md:text-xl lg:text-2xl">
                 <RxCross2 />
@@ -72,10 +72,10 @@ const Comparison = () => {
                                         
         {/* Alpha Video Editing */}
         <div>
-          <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-center mb-6 text-TextColor">
+          <h3 className="text-base md:text-xl lg:text-2xl font-medium text-center mb-6 text-TextColor">
           What AlphaVideoEdit.com Offers:
           </h3>
-          <div style={{ background: "linear-gradient(90deg, rgba(252,252,250,0.05) 30%, rgba(118,94,255,1) 100%)", backgroundRepeat: "no-repeat" }} className=" border rounded-2xl border-TextColor/20 p-8 lg:p-10  space-y-5 text-TextColor text-base md:text-lg overflow-hidden"
+          <div style={{ background: "linear-gradient(90deg, rgba(252,252,250,0.05) 30%, rgba(118,94,255,1) 100%)", backgroundRepeat: "no-repeat" }} className=" border rounded-2xl border-TextColor/20 p-8 lg:p-10  space-y-5 text-TextColor text-xs md:text-base lg:text-lg overflow-hidden"
           >
             <p className="flex items-center gap-3">
               <span className="text-MainColor text-lg md:text-xl lg:text-2xl">

@@ -14,7 +14,7 @@ const FAQs = () => {
         </div>
         <div className="collapse-content">
           <p className="text-xs md:text-sm text-SecondTextColor">
-            I provide a range of video editing services, including color
+            We provide a range of video editing services, including color
             correction, sound design, transitions, motion graphics, and advanced
             editing for YouTube videos, commercials, short films, and more.
             Contact me to discuss your project!
@@ -28,7 +28,7 @@ const FAQs = () => {
         </div>
         <div className="collapse-content">
           <p className=" text-xs md:text-sm text-SecondTextColor">
-            My pricing depends on the complexity and duration of your project. I
+            Our pricing depends on the complexity and duration of your project. I
             offer affordable packages tailored to your needs. Feel free to
             request a quote via the Contact Page.
           </p>
@@ -41,7 +41,7 @@ const FAQs = () => {
         </div>
         <div className="collapse-content">
           <p className="text-xs md:text-sm text-SecondTextColor">
-            I use industry-leading tools like Adobe Premiere Pro, After Effects,
+            We use industry-leading tools like Adobe Premiere Pro, After Effects,
             DaVinci Resolve, and Final Cut Pro to ensure high-quality edits that
             match your vision.
           </p>
@@ -55,7 +55,7 @@ const FAQs = () => {
         </div>
         <div className="collapse-content">
           <p className="text-xs md:text-sm text-SecondTextColor">
-            Absolutely! I specialize in creating engaging videos optimized for
+            Absolutely! We specialize in creating engaging videos optimized for
             social media platforms, ensuring the right aspect ratio, resolution,
             and style for Instagram, YouTube, TikTok, and more.
           </p>
@@ -81,7 +81,7 @@ const FAQs = () => {
         </div>
         <div className="collapse-content">
           <p className="text-xs md:text-sm text-SecondTextColor">
-            Yes, I can collaborate with you on scriptwriting, storyboarding, and
+            Yes, We can collaborate with you on scriptwriting, storyboarding, and
             planning to create a cohesive and impactful final product. Let’s
             bring your vision to life!
           </p>

@@ -25,19 +25,20 @@ const Home = () => {
 
   return (
     <main data-aos="fade-up" className="min-h-screen z-0">
+      
       <Hero />
 
       <Intro></Intro>
 
       <Brands />
 
-      <LongForm />
-
-      <ShortForm />
-
       <Client />
 
       <Services />
+
+      <LongForm />
+
+      <ShortForm />
 
       <Comparison />
 
@@ -48,6 +49,7 @@ const Home = () => {
       <Talk />
 
       <FAQs />
+
     </main>
   );
 };

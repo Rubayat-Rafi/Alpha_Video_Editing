@@ -3,17 +3,17 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="mb-24">
-      <div className="">
+      <div className="lg:px-[20%]">
         {/* Main Heading */}
-        <h1 className="text-center text-3xl md:text-5xl lg:text-[60px] md:leading-[66px] font-bold leading-tight">
-          Why Storytelling Matters in
-          <span className="font-Instrument lg:ml-3 text-MainColor tracking-wider">
-            Video Editing
+        <h1 className="text-center text-2xl md:text-4xl lg:text-[60px] md:leading-[66px] font-medium leading-tight">
+          <span>Why Storytelling Matters in </span>
+          <span className="font-Instrument lg:ml-3 italic text-MainColor tracking-wider">
+             Video Editing
           </span>
         </h1>
 
         {/* Subtitle */}
-        <p className="text-center text-gray-400 text-sm md:text-base lg:px-16 lg:text-lg mt-6">
+        <p className="text-center text-gray-400 text-xs md:text-base lg:px-16 lg:text-lg mt-4 md:mt-6">
           Discover how storytelling elevates video editing, captivates
           audiences, and transforms content into unforgettable experiences for
           your brand.
@@ -24,7 +24,7 @@ const Intro = () => {
       <div className="flex items-center justify-center mt-10 rounded-2xl overflow-hidden">
 
           <iframe
-            className="w-full h-[280px]  lg:w-1/2 lg:h-[400px] rounded-2xl"
+            className="w-full h-[200px] md:h-[500px]  lg:w-2/3 lg:h-[550px] rounded-2xl"
             src="https://www.youtube.com/embed/M43od-A17No?si=xPTRI46QHYyxXJ8i"
             title="YouTube video player"
             frameBorder="0"
