@@ -10,8 +10,10 @@ const Talk = () => {
   }, []);
 
   return (
-    <div id="book-a-call" className=" pt-14 md:pt-28">
-      <div className="border border-TextColor/20  rounded-2xl  py-6">
+    <div id="book-a-call" className="py-16 lg:py-28 ">
+
+<div className="max-w-[1440px] mx-auto w-11/12">
+<div className="border border-TextColor/20  rounded-2xl  py-6">
         <div>
           <Title
             heading={"Book a call"}
@@ -27,6 +29,9 @@ const Talk = () => {
           ></div>
         </div>
       </div>
+</div>
+
+
     </div>
   );
 };

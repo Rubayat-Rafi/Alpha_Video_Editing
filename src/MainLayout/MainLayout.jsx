@@ -1,17 +1,24 @@
-import React from "react";
-import { Outlet } from "react-router-dom";
+import React, { useEffect } from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import { Outlet } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const MainLayout = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      easing: "ease-in-out",
+      once: true,
+    });
+  }, []);
   return (
-    <div>
-      <div className="sticky top-0 md:top-6 z-10">
-      <Header></Header>
+    <div data-aos="fade-up">
+      <div  className="sticky top-0 lg:top-6 z-20">
+        <Header></Header>
       </div>
-      <div className="max-w-[1440px] mx-auto w-11/12">
         <Outlet></Outlet>
-      </div>
       <Footer></Footer>
     </div>
   );

@@ -7,75 +7,73 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = (
-    <ul className=" flex flex-col items-start  lg:text-center  lg:items-center lg:flex-row lg:space-x-8 text-sm space-y-4 lg:space-y-0">
-      <li className="lg:w-[102px]">
+    <ul className=" flex flex-col items-start lg:text-center  lg:items-center lg:flex-row lg:space-x-8 text-sm space-y-5 lg:space-y-0 lg:text-[10px]">
+      <li>
         <a
           href="/#long-form"
-          className="hover:text-SecondTextColor transition cursor-pointer "
-        >
-          <span className="lg:text-lg">Long-Form</span> <span className="lg:text-xs">Video Editing</span>
-           
+          className="hover:text-SecondTextColor transition cursor-pointer">
+          {/* <span className="lg:text-[16px] ">Long-Form</span> <span className="lg:text-xs">Video Editing</span> */}
+          <span className="lg:text-[16px] lg:block">Long-Form </span>Video Editing
         </a>
       </li>
-      <li className="lg:w-[107px]">
+      <li >
         <a
           href="/#short-form"
           className="hover:text-SecondTextColor transition cursor-pointer"
         >
-          <span className="lg:text-lg ">Short-Form</span> <span className="lg:text-xs">Content Editing</span>
+          <span className="lg:text-[16px] lg:block">Short-Form </span> Content Editing
            
         </a>
       </li>
 
-      <li className="lg:w-[115px]">
+      <li >
         <a
           href="/#results"
           className="hover:text-SecondTextColor transition cursor-pointer "
         >
-          <span className="lg:text-lg">Our Success</span> <span className="lg:text-xs">Stories</span>
+          <span className="lg:text-[16px] lg:block">Our Success </span> Stories
         </a>
       </li>
-      <li className="lg:w-[99px]">
+      <li >
 
         <a
           href="/#services"
           className="hover:text-SecondTextColor transition cursor-pointer "
         >
-          <span className="lg:text-lg">Our Video</span> <span className="lg:text-xs">Editing Services</span>
+          <span className="lg:text-[16px] lg:block">Our Video</span> Editing Services
         </a>
       </li>
       <li>
         <a
           href="/#pricing"
-          className="hover:text-SecondTextColor flex flex-row lg:block  transition cursor-pointer "
-        > <p className="lg:text-lg mr-1 lg:mr-0">Plans </p>
-          <span className="lg:text-xs"> & Pricing</span>
+          className="hover:text-SecondTextColor flex flex-row lg:block  transition cursor-pointer space-x-1 lg:space-x-0 "
+        > <p className="lg:text-[16px] lg:block">Plans </p> <span>  &  </span> <span>  Pricing</span>
         </a>
       </li>
-      <li className="">
+      <li>
         <a
           href="/#faq"
           className="hover:text-SecondTextColor transition cursor-pointer"
         >
-          <span className="lg:text-lg">FAQs</span>
+          <span className="lg:text-[16px]">FAQs</span>
         </a>
       </li>
-      <li className="">
+      <li >
         <a
           href="/#book-a-call"
           className="bg-MainColor text-TextColor px-2 py-2 lg:py-3 lg:px-4 rounded-lg w-full outline hover:outline-offset-4 outline-TextColor/5 hover:outline-mainColor transition-all cursor-pointer"
         >
-          <span className="lg:text-lg">Book a call</span>
+          <span className="lg:text-[16px]">Book a call</span>
         </a>
       </li>
     </ul>
   );
 
   return (
-    <nav className=" md:w-11/12 md:backdrop-blur-2xl text-TextColor py-4  px-6 mx-auto flex items-center justify-between relative lg:border border-TextColor/20 md:rounded-xl lg:bg-TextColor/5 lg:max-w-[1000px] bg-BgColor">
+    <nav className=" md:w-11/12 md:backdrop-blur-2xl text-TextColor py-4  px-6 mx-auto flex items-center justify-between relative lg:border border-TextColor/20 lg:rounded-xl lg:bg-TextColor/5 lg:max-w-[910px] bg-BgColor ">
       {/* Logo */}
       <a href="/#hero">
-        <img src={logo} alt="logo" className="w-14" />
+        <img src={logo} alt="logo" className=" w-10 lg:w-12" />
       </a>
 
       {/* Navigation Links for desktop */}
@@ -90,7 +88,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className=" bg-BgColor absolute top-full left-0 w-full text-xs flex flex-col items-start p-6 lg:hidden  text-center">
+        <div className=" bg-BgColor absolute top-full left-0 w-full text-xs flex flex-col items-start p-6 lg:hidden  text-center ">
           {links}
         </div>
       )}

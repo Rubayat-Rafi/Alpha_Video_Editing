@@ -18,6 +18,11 @@ export default {
         BgThirdColor: "#301562"
 
       },
+      backgroundImage: {
+        firstImage : "url('/src/assets/bgColor/first.png')",
+        secondImage: "url('/src/assets/bgColor/second.png')",
+        thirdBanner: "url('/src/assets/bgColor/Homebg.png')"
+      },
       colors:{
         TextColor: "#fcfcfa",
         SecondTextColor: "#999999",

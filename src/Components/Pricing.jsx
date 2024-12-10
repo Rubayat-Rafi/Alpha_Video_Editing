@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const Pricing = () => {
   return (
-    <div id="pricing" className=" pt-[70px] md:pt-28 flex items-center justify-center flex-col">
+    <div id="pricing" className=" py-16 md:py-28 flex items-center justify-center flex-col max-w-[1440px] mx-auto w-11/12">
       <div className="mb-8 lg:mb-24 lg:w-4/5 ">
         <Title
           heading={"Pricing"}

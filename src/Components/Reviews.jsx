@@ -14,30 +14,32 @@ import client8 from "../assets/ClientImage/client8.webp";
 import client9 from "../assets/ClientImage/client9.jpg";
 import client10 from "../assets/ClientImage/client10.png";
 import client11 from "../assets/ClientImage/client11.webp";
+import client12 from "../assets/ClientImage/client12.webp"
+import client14 from "../assets/ClientImage/client14.webp"
 
 const reviews = [
   {
-    name: "Maxwell Lewis",
-    username: "@maxwelllewis",
-    body: "The videos keep improving. Highly recommended. Can't imagine partnering with anyone else for videos.",
-    img: client1,
+    name: "Saraobrien",
+    username: "saraobrien578",
+    body: "The final product turned out great and they were responsive to my edits.",
+    img: client14,
   },
   {
-    name: "Coachri Conasol",
-    username: "@coachriconasol",
-    body: "I'm speechless. This is truly amazing. Highly recommend their work.",
+    name: "Debirumph",
+    username: "debirumph",
+    body: "Imam H exceeded my expectations with his professional work on social media videos.",
     img: client2,
   },
   {
-    name: "Nicolet Tekous",
-    username: "@nicolettekous",
-    body: "Quick turnaround for my deadline. Delivered exactly what I wanted. Will use again.",
-    img: client3,
+    name: "Riverpathak",
+    username: "@riverpathak",
+    body: "Imam was quick and concise, will 100% be working with him again. Highly fruitful collaboration experience",
+    img: client12,
   },
   {
-    name: "Kaboat",
-    username: "@kaboat",
-    body: "Great from start to finish. Delivered preferred editing style perfectly.",
+    name: "Coachriconasol",
+    username: "@coachriconasol",
+    body: "Imam always goes above and beyond. He nailed the style I was after and revisions were quick and easy.",
     img: client4,
   },
   {
@@ -53,8 +55,8 @@ const reviews = [
     img: client6,
   },
   {
-    name: "Istlaque Ahmd",
-    username: "@istlaqueahmd",
+    name: "Maxwell Lewis",
+    username: "@maxwelllewis",
     body: "Initial delivery was 90% perfect. Excellent editing and professional revision handling throughout the process.",
     img: client7,
   },

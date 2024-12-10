@@ -5,8 +5,9 @@ import { GoCheck } from "react-icons/go";
 
 const Comparison = () => {
   return (
-    <div className=" pt-14 md:pt-28">
-      <div className=" mx-auto lg:px-[10%]">
+    <div className=" bg-MainColor/5 py-16 lg:py-28 ">
+     <div className="max-w-[1440px] mx-auto w-11/12">
+     <div className=" mx-auto lg:px-[10%]">
         <Title
           heading={"Comparison"}
           title={"Why Choose AlphaVideoEdit.com for "}
@@ -128,6 +129,8 @@ const Comparison = () => {
 
 
       </div>
+     </div>
+
     </div>
   );
 };

@@ -8,47 +8,40 @@ import Brands from "../Components/Brands";
 import Pricing from "../Components/Pricing";
 import ShortForm from "../Components/ShortForm";
 import LongForm from "../Components/LongForm";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import Review from "../Components/Review";
 import Talk from "../Components/Talk";
 import Intro from "../Components/Intro";
 
-
 const Home = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
+
 
   return (
-    <main data-aos="fade-up" className="min-h-screen z-0">
-      
-      <Hero />
+    <main className="min-h-screen z-0">
 
-      <Intro></Intro>
+        <Hero />
 
-      <Brands />
+        <Intro />
 
-      <Client />
+        <Brands />
 
-      <Services />
+        <Client />
 
-      <LongForm />
+        <Services />
 
-      <ShortForm />
+        <LongForm />
 
-      <Comparison />
+        <ShortForm />
 
-      <Pricing />
+        <Comparison />
 
-      <Review />
+        <Pricing />
 
-      <Talk />
+        <Review />
 
-      <FAQs />
+        <Talk />
+
+        <FAQs />
 
     </main>
   );

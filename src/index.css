@@ -17,8 +17,4 @@ body {
   background-color: #0a0416;
   color: #fcfcfa;
   font-family: "Sora", sans-serif;
-}
-/* background: -webkit-linear-gradient(360deg, #e09215,#2c1642,#301562); */
-/* Chrome 10-25, Safari 5.1-6 */                          
-/* background: linear-gradient(360deg, #e09215,#2c1642,#301562); */
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}                                       

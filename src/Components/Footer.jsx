@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "../assets/logo Main.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import Swal from "sweetalert2";
 
 const Footer = () => {
+
   const form = useRef();
 
   const handleSubmit = (event) => {
@@ -44,7 +45,7 @@ const Footer = () => {
       <div className="py-14 max-w-[1440px] w-11/12 mx-auto">
         {/* <h3 className="text-3xl font-bold mb-8">Alpha</h3> */}
         <a href="/#hero">
-          <img src={logo} alt="logo" className="h-12 mb-8" />
+          <img src={logo} alt="logo" className=" w-14 md:w-16 mb-8" />
         </a>
 
         <div className="flex flex-col-reverse md:flex-row justify-between">
@@ -110,7 +111,7 @@ const Footer = () => {
             <nav>
               <h3 className="text-base text-TextColor mb-5">Information</h3>
               <div className="md:space-y-4 text-sm text-SecondTextColor flex space-x-4 md:flex-col md:space-x-0">
-                <a href="#faq" className="hover:underline">
+                <a href="/#faq" className="hover:underline">
                   FAQ
                 </a>
                 <a
@@ -120,9 +121,9 @@ const Footer = () => {
                 >
                   Contact Us
                 </a>
-                <a className="hover:underline">
-                  <Link to="/about">About Us</Link>
-                </a>
+                <Link to="/about"  className="hover:underline">
+                  About Us
+                </Link>
               </div>
             </nav>
           </div>

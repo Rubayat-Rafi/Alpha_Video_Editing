@@ -3,8 +3,8 @@ import Title from "./Title";
 
 const LongForm = () => {
   return (
-    <div id="long-form" className=" pt-[70px] md:pt-28 ">
-      <div className="lg:px-[10%]">
+    <div id="long-form" className=" pt-16 lg:pt-28 max-w-[1440px] mx-auto w-11/12">
+      <div className="lg:px-[5%]">
         <Title
           heading={"Long-Form"}
           title={" Long-Form Video Editing:"}
@@ -17,14 +17,14 @@ const LongForm = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-10 ">
         <div>
           <iframe
-            className="rounded-2xl w-full h-[280px] md:h-[350px] lg:h-[400px]"
+            className="rounded-2xl w-full h-[200px] md:h-[350px] lg:h-[400px]"
             src="https://www.youtube.com/embed/lHJdHd7ROB4?si=ObjNDo9dCzI8PExc"
             allow="autoplay"
           ></iframe>
         </div>
         <div>
           <iframe
-            className="rounded-2xl  w-full h-[280px] md:h-[350px] lg:h-[400px]"
+            className="rounded-2xl  w-full h-[200px] md:h-[350px] lg:h-[400px]"
             src="https://www.youtube.com/embed/r5OEAPZw28U?si=u58WWiINegx_CcC4"
             width="100%"
             height="350px"
@@ -33,7 +33,7 @@ const LongForm = () => {
         </div>
         <div className="lg:col-span-2 flex justify-center">
           <iframe
-            className="rounded-2xl w-full lg:w-1/2 h-[280px] md:h-[350px] lg:h-[400px]"
+            className="rounded-2xl w-full lg:w-1/2 h-[200px] md:h-[350px] lg:h-[400px]"
             src="https://www.youtube.com/embed/g62bzoH672w?si=SMrOsJ8pgHfplvAV"
             allow="autoplay"
           ></iframe>
