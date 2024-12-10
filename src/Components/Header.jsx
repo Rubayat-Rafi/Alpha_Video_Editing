@@ -88,7 +88,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className=" bg-BgColor absolute top-full left-0 w-full text-xs flex flex-col items-start p-6 lg:hidden  text-center ">
+        <div className=" bg-BgColor  absolute top-full left-0 w-full text-xs flex flex-col items-start p-6 lg:hidden  text-center ">
           {links}
         </div>
       )}

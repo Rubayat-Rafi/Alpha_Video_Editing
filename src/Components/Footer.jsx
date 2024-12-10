@@ -6,7 +6,6 @@ import { useRef } from "react";
 import Swal from "sweetalert2";
 
 const Footer = () => {
-
   const form = useRef();
 
   const handleSubmit = (event) => {
@@ -35,7 +34,6 @@ const Footer = () => {
             title: "Oops...",
             text: "Failed to send email. Please try again.",
           });
-
         }
       );
   };
@@ -50,7 +48,7 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse md:flex-row justify-between">
           <div className="text-TextColor">
-            <p className="text-lg font-semibold mb-4">Join Our Newsletter</p>
+            <h6 className="text-lg font-semibold mb-4">Join Our Newsletter</h6>
             <p className="max-w-[500px] text-base text-SecondTextColor">
               Sign up to our mailing list below and be the first to know about
               new updates. Don't worry, we hate spam too.
@@ -72,6 +70,16 @@ const Footer = () => {
                   Get Notified
                 </button>
               </form>
+            </div>
+
+            <div className="space-y-2 mt-4 md:mt-6">
+              <h6 className="text-lg font-semibold">For more info</h6>
+              <p className="max-w-[500px] text-base text-SecondTextColor">
+                Phone: +8801889029116
+              </p>
+              <p className="max-w-[500px] text-base text-SecondTextColor">
+                Email: alphavideoedit2001@gmail.com
+              </p>
             </div>
           </div>
           <div className="flex gap-8 md:flex-row flex-col mb-10">
@@ -121,7 +129,7 @@ const Footer = () => {
                 >
                   Contact Us
                 </a>
-                <Link to="/about"  className="hover:underline">
+                <Link to="/about" className="hover:underline">
                   About Us
                 </Link>
               </div>

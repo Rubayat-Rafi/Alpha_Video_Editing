@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { Outlet } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 
 const MainLayout = () => {
   useEffect(() => {
@@ -13,13 +14,19 @@ const MainLayout = () => {
       once: true,
     });
   }, []);
+
   return (
     <div data-aos="fade-up">
-      <div  className="sticky top-0 lg:top-6 z-20">
-        <Header></Header>
+
+      <div className="sticky top-0 lg:top-6 z-20">
+        <Header />
       </div>
-        <Outlet></Outlet>
-      <Footer></Footer>
+
+      <main>
+          <Outlet />
+      </main>
+      <Footer />
+ 
     </div>
   );
 };

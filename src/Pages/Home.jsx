@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Hero from "../Components/Hero";
 import FAQs from "../Components/FAQs";
 import Client from "../Components/Client";
@@ -13,11 +13,13 @@ import Review from "../Components/Review";
 import Talk from "../Components/Talk";
 import Intro from "../Components/Intro";
 
+
+
+
 const Home = () => {
-
-
   return (
-    <main className="min-h-screen z-0">
+    
+      <main className="min-h-screen z-0">
 
         <Hero />
 
@@ -43,7 +45,8 @@ const Home = () => {
 
         <FAQs />
 
-    </main>
+      </main>
+      
   );
 };
 
