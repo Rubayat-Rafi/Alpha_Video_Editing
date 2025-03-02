@@ -24,12 +24,10 @@ const Services = () => {
           {/* card 1  */}
           <div className=" bg-firstImage bg-right-top bg-cover border bg-no-repeat border-TextColor/20  rounded-2xl py-14 px-6 md:px-14 space-y-4 md:space-y-5 flex flex-col items-center justify-center">
             <h3 className="lg:text-[40px]  md:text-2xl text-xl leading-6 md:leading-9  lg:leading-[46px] font-medium text-center">
-              Video Videos
+            YouTube Videos
             </h3>
             <p className="text-center text-xs leading-5  md:text-sm lg:text-lg text-SecondTextColor md:leading-6 lg:leading-7 md:w-3/6  lg:w-3/4">
-              From Short-Form Videos to Long-Form Content, Ad Creatives, and
-              VSLs – Comprehensive Video Editing Services Tailored for Every
-              Need.
+            Boost watch time, attract more subscribers, and grow your channel with polished, engaging videos tailored for YouTube.
             </p>
           </div>
 

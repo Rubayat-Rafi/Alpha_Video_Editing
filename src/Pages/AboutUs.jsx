@@ -28,11 +28,11 @@ const AboutUs = () => {
       <div data-aos="fade-up" className="max-w-[1440px] mx-auto w-11/12 flex items-start flex-col-reverse lg:flex-row gap-8 py-16 md:py-28  min-h-[calc(100vh-496px)]">
         <div className="lg:w-1/2 space-y-4">
           <p className="text-SecondTextColor font-normal text-base lg:text-xl">
-            <span className="text-MainColor font-semibold ">AlphaVideoEdit.com</span> is powered by Imam Hasan, a seasoned video
+            <span className="text-MainColor font-semibold ">AlphaVideoEdit.com</span> is powered by  Imam Hasan Turzo, a seasoned video
             editor passionate about delivering impactful, high-quality videos
             that elevate your brand’s reach and audience engagement. With
             expertise in long-form content editing, short-form social media
-            videos, and creative promotional editing, Imam Hasan has
+            videos, and creative promotional editing,  Imam Hasan Turzo has
             successfully helped numerous creators, educators, and businesses
             tell their unique stories through exceptional visuals.
           </p>

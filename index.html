@@ -1,16 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" sizes="16x16" href="/src/assets/favicon.png">
+    <link rel="icon" type="image/png" href="/src/assets/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="AlphaVideoEdit.com – Boost your brand reach with expert video editing services. We specialize in transforming raw footage into impactful short-form content, long-form videos, and promotional edits like 2D explainers and app promos. Trusted by 30+ brands and creators, our tailored solutions ensure your videos captivate audiences and drive results. Elevate your content with professionally edited videos that make an impact. Book a call today!">
+    <meta
+      name="description"
+      content="AlphaVideoEdit.com – Boost your brand reach with expert video editing services. We specialize in transforming raw footage into impactful short-form content, long-form videos, and promotional edits like 2D explainers and app promos. Trusted by 30+ brands and creators, our tailored solutions ensure your videos captivate audiences and drive results. Elevate your content with professionally edited videos that make an impact. Book a call today!"
+    />
     <title>Alpha Video Editing</title>
-    
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "image": "/src/assets/logo Main.png",
+        "@type": "WebSite",
+        "name": "AlphaVideoEdit.com",
+        "url": "https://www.alphavideoedit.com",
+        "description": "AlphaVideoEdit.com, powered by Imam Hasan, specializes in professional video editing services, including long-form content, short-form social media videos, podcasts, and promotional videos. Transform your raw footage into captivating masterpieces with expert storytelling, motion graphics, and advanced editing techniques.",
+        "creator": {
+          "@type": "Person",
+          "name": "Imam Hasan",
+          "url": "https://www.alphavideoedit.com/about",
+          "sameAs": [
+            "https://www.linkedin.com/in/imam-hasan-666021204/",
+            "https://www.instagram.com/alphavideoedit/"
+          ],
+          "description": "Imam Hasan is a professional video editor with expertise in creating engaging, high-quality videos for brands and content creators worldwide."
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.alphavideoedit.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "offers": {
+          "@type": "OfferCatalog",
+          "name": "Video Editing Services",
+          "itemListElement": [
+            {
+              "@type": "Service",
+              "name": "Long-Form Video Editing",
+              "description": "Transform long-form content into polished videos with seamless cuts, storytelling, and professional effects."
+            },
+            {
+              "@type": "Service",
+              "name": "Short-Form Video Editing",
+              "description": "Create scroll-stopping content for Instagram, TikTok, and YouTube Shorts with dynamic transitions and animations."
+            },
+            {
+              "@type": "Service",
+              "name": "Podcast Video Editing",
+              "description": "Enhance podcast recordings with synchronized visuals, audio improvements, and engaging effects."
+            },
+            {
+              "@type": "Service",
+              "name": "Promotional and VSL Editing",
+              "description": "Develop creative promotional videos and VSLs tailored to drive conversions and amplify your message."
+            }
+          ]
+        }
+      }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-K6KZEX5CTJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-K6KZEX5CTJ");
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PNJM73ZB");
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <!-- developed by Abu Rubayat Rafi -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PNJM73ZB"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
   </body>
 </html>

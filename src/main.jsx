@@ -6,6 +6,9 @@ import { router } from "./Route/router.jsx";
 import Cursor from "./Cursor/Cursor.jsx";
 
 
+
+
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
       <Cursor></Cursor>

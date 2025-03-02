@@ -1,8 +1,20 @@
-# React + Vite
+# Alpha Video Editing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Website Preview](assets/websiteImage/webimage.png)
 
-Currently, two official plugins are available:
+AlphaVideoEdit.com is a professional video editing platform that offers high-quality editing services with seamless user experience. The website features showcased video editing services, integrated meeting booking functionality, and a newsletter subscription for client engagement.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Showcased video editing services
+- Integrated meeting booking functionality
+- Added a newsletter subscription feature for client engagement
+
+## Technologies Used
+- HTML5
+- CSS3
+- Tailwind CSS
+- JavaScript
+- React.js
+
+## Live Site
+🔗 [Alpha Video Edit](https://alphavideoedit.com)

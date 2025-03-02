@@ -42,7 +42,7 @@ const Footer = () => {
     <div className="relative border-t border-TextColor/20 ">
       <div className="py-14 max-w-[1440px] w-11/12 mx-auto">
         {/* <h3 className="text-3xl font-bold mb-8">Alpha</h3> */}
-        <a href="/#hero">
+        <a href="/#root">
           <img src={logo} alt="logo" className=" w-14 md:w-16 mb-8" />
         </a>
 
@@ -75,10 +75,10 @@ const Footer = () => {
             <div className="space-y-2 mt-4 md:mt-6">
               <h6 className="text-lg font-semibold">For more info</h6>
               <p className="max-w-[500px] text-base text-SecondTextColor">
-                Phone: +8801889029116
+              What's App: +8801889029116
               </p>
               <p className="max-w-[500px] text-base text-SecondTextColor">
-                Email: alphavideoedit2001@gmail.com
+                Email: alphavideoedit.com@gmail.com
               </p>
             </div>
           </div>

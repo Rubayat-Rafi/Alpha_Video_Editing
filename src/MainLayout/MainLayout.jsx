@@ -17,16 +17,14 @@ const MainLayout = () => {
 
   return (
     <div data-aos="fade-up">
-
       <div className="sticky top-0 lg:top-6 z-20">
         <Header />
       </div>
 
       <main>
-          <Outlet />
+        <Outlet />
       </main>
       <Footer />
- 
     </div>
   );
 };
